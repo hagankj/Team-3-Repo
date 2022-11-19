@@ -1,11 +1,13 @@
 # Expected Return Models <br>  Team-3: Kyle, Adam, Jose, Narayan
 
 ## Project Overview and Goal
-The expected return of a stock is a critical factor used in determining the Weighted Average Cost of Capital(WACC) for stock valuations using a Discounted Cashflow Model. 
+The expected return of a stock (R<sub>e</sub>) is a critical factor used in determining the Weighted Average Cost of Capital(WACC) for Valuations using a Discounted Cashflow Model. 
 
-There are many methods available to predict an expected return. However, each process will result in a different value for the return. In this project, we devlope three ways of forecasting excess returns using python code and various APIs. 
+![Wacc](WACC.jpg)
 
-**The goal:<br>**
+There are many methods available to predict an expected return. However, each method can be a lengthe process of gathering data,preparing the data for analysis, and finaly applying the computation. In this project, we devloped three ways of forecasting excess returns using python code and various APIs. 
+
+**Our goal:<br>**
 To build a tool that will create a forecast of expected returns using three different models.
 
 ___
@@ -18,6 +20,16 @@ A simulation-based approach where future stock prices are predicted from the sto
 **CAPM and Fama-French**
 An analytical approach where stock performance is compared to market performance to build a linear model to predict future performance. <br>
 
+**The CAPM Model** <br>
+![CAPM](CAPM.jpg)<br>
+
+
+**The Fama-French 3 Factor Model** <br>
+![CAPM](FAMA_FRENCH.jpg)<br>
+
+The method used to calculate the beta factors for CAPM or Fama-French is to use a Linear Regression. An output of the linear regresion is provided below.  
+
+**The Ouput Of a Regression**<br>
 ![Regression results](OLS_output.jpg)
 ___
 ## Implementaion
@@ -55,6 +67,9 @@ ___
 
 
 ### Analysis 
+
+See Monte_Carlo file in repo for output on Monte-Carlo analysis
+See CAPM_FF3_* files for CAPM and Fama-French analysis
 
 #### Monte-Carlo set up
 |Variable|Value|
@@ -196,3 +211,24 @@ The output form all three methods gives us standard deviations as well as expect
 
 
 ## Links
+
+WACC
+https://en.wikipedia.org/wiki/Weighted_average_cost_of_capital
+
+CAPM
+https://en.wikipedia.org/wiki/Capital_asset_pricing_model
+
+FAMA-FRENCH
+https://www.investopedia.com/terms/f/famaandfrenchthreefactormodel.asp
+
+FRED API
+https://fred.stlouisfed.org/docs/api/fred/
+
+Kennith French's website
+https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
+
+ALPACA
+https://alpaca.markets/
+
+getfamafrenchFactors API Repo
+https://github.com/vashOnGitHub/getFamaFrenchFactors
