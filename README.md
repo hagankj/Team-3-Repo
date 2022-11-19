@@ -120,7 +120,7 @@ Using the Fama French 3 Factor model, our expected rate of return on TSLA is 15.
 Results:
 |Method|Value|
 |--------|-----|
-|Monte Carlo| XX%|
+|Monte Carlo| 44.6%|
 |CAPM| 21.45%|
 |Fama-French|15.88%|
 ---
@@ -141,7 +141,7 @@ Using the Fama French 3 Factor model, our expected rate of return on XEL is 5.47
 Results:
 |Method|Value|
 |--------|-----|
-|Monte Carlo| XX%|
+|Monte Carlo| 7.7%|
 |CAPM| 6.65%|
 |Fama-French|5.47%|
 ---
@@ -163,7 +163,7 @@ Using the Fama French 3 Factor model, our expected rate of return on AAPL is 10.
 Results:
 |Method|Value|
 |--------|-----|
-|Monte Carlo| XX%|
+|Monte Carlo| 15.2%|
 |CAPM| 13.54%|
 |Fama-French|10.48%|
 ---
@@ -185,7 +185,7 @@ Using the Fama French 3 Factor model, our expected rate of return on ESGU is 11.
 Results:
 |Method|Value|
 |--------|-----|
-|Monte Carlo| XX%|
+|Monte Carlo| 10.5%|
 |CAPM| 11.7%|
 |Fama-French|11.43%|
 ___
