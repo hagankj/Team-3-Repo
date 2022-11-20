@@ -3,7 +3,7 @@
 ## Project Overview and Goal
 The expected return of a stock (R<sub>e</sub>) is a critical factor used in determining the Weighted Average Cost of Capital(WACC) for Valuations using a Discounted Cashflow Model. 
 
-![Wacc](Images\WACC.jpg)
+![Wacc](https://github.com/hagankj/Team-3-Repo/blob/main/Images/WACC.jpg)
 
 There are many methods available to predict an expected return. However, each method can be a lengthe process of gathering data, preparing the data for analysis, and finaly applying the computation. In this project, we devloped three ways of forecasting excess returns using python code and various libraries and APIs. 
 
