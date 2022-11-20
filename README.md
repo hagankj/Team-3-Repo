@@ -3,7 +3,7 @@
 ## Project Overview and Goal
 The expected return of a stock (R<sub>e</sub>) is a critical factor used in determining the Weighted Average Cost of Capital(WACC) for Valuations using a Discounted Cashflow Model. 
 
-![Wacc](Images\WACC.jpg)
+![Wacc](Images/WACC.jpg)
 
 There are many methods available to predict an expected return. However, each method can be a lengthe process of gathering data, preparing the data for analysis, and finaly applying the computation. In this project, we devloped three ways of forecasting excess returns using python code and various libraries and APIs. 
 
@@ -21,16 +21,16 @@ A simulation-based approach where future stock prices are predicted from the sto
 An analytical approach where stock performance is compared to market performance to build a linear model to predict future performance. <br>
 
 **The CAPM Model** <br>
-![CAPM](https://github.com/hagankj/Team-3-Repo/blob/main/Images/CAPM.jpg)<br>
+![CAPM](Images/CAPM.jpg)<br>
 
 
 **The Fama-French 3 Factor Model** <br>
-![CAPM](Images\FAMA_FRENCH.jpg)<br>
+![CAPM](Images/FAMA_FRENCH.jpg)<br>
 
 The method used to calculate the beta factors for CAPM or Fama-French is to use a Linear Regression. An output of the linear regresion is provided below.  
 
 **The Ouput Of a Regression**<br>
-![Regression results](Images\OLS_output.jpg)
+![Regression results](Images/OLS_output.jpg)
 ___
 ## Implementaion
 
@@ -105,12 +105,12 @@ ___
 Monte Carlo simulation:
 - There is a 95% chance that an initial investment of $100,000 over the next 10 years will end within the range of $1,822.04 and $4,8197,553.24.
 
-![](Images\TSLA_MC.png)
+![](Images/TSLA_MC.png)
 
 CAPM:
 Using the CAPM model, our expected rate of return on TSLA is 21.45%.
 
-![](Images\TSLA.png)
+![](Images/TSLA.png)
 
 Fama French:
 Using the Fama French 3 Factor model, our expected rate of return on TSLA is 15.88%.
@@ -128,11 +128,11 @@ Results:
 Monte Carlo simulation:
 - There is a 95% chance that an initial investment of $100,000 over the next 10 years will end within the range of $43,271.86 and $580,805.59.
 
-![](Images\XEL_MC.png)
+![](Images/XEL_MC.png)
 
 CAPM:
 Using the CAPM model, our expected rate of return on XEL is 6.65%.
-![](Images\XEL.png)
+![](Images/XEL.png)
 
 Fama French:
 Using the Fama French 3 Factor model, our expected rate of return on XEL is 5.47%.
@@ -149,11 +149,11 @@ Results:
  Monte Carlo simulation:
 - There is a 95% chance that an initial investment of $100,000 over the next 10 years will end within the range of $7,949.12 and $3,190,078.26.
 
-![](Images\AAPL_MC.png)
+![](Images/AAPL_MC.png)
 
 CAPM:
 Using the CAPM model, our expected rate of return on AAPL is 13.54%.
-![](Images\AAPL.png)
+![](Images/AAPL.png)
 
 
 Fama French:
@@ -171,12 +171,12 @@ Results:
  Monte Carlo simulation:
 - There is a 95% chance that an initial investment of $100,000 over the next 10 years will end within the range of $64,596.84 and $745,729.65.
 
-![](Images\ESGU_MC.png)
+![](Images/ESGU_MC.png)
 
 CAPM:
 Using the CAPM model, our expected rate of return on ESGU is 11.7%.
 
-![](Images\ESGU.png936)
+![](Images/ESGU.png936)
 
 Fama French:
 Using the Fama French 3 Factor model, our expected rate of return on ESGU is 11.43%.
