@@ -5,7 +5,7 @@ The expected return of a stock (R<sub>e</sub>) is a critical factor used in dete
 
 ![Wacc](Images/WACC.jpg)
 
-There are many methods available to predict an expected return. However, each method can be a lengthe process of gathering data, preparing the data for analysis, and finaly applying the computation. In this project, we devloped three ways of forecasting excess returns using python code and various libraries and APIs. 
+There are many methods available to predict an expected return. However, each method can be a lengthy process of gathering data, preparing the data for analysis, and finaly applying the computation. In this project, we developed three ways of forecasting excess returns using python code and various libraries and APIs. 
 
 **Our goal:<br>**
 To build a tool that will create a forecast of expected returns using three different models.
