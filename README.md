@@ -47,7 +47,7 @@ We initaly gathered data from multiple sources using CSV files, the request liba
 
 **Fama-French CSV:** Downloaded and read in data directly a CSV of the Fama-french factors.<br>
 
-We were able to gather all the data in one place. When we started joining the tables together we ran into multiple data formating issues particuarly with the dates. After spending some time correcting the problems with the dates and data formats, we were able to join the tables togeher. Ultimatly we decided to look for a faster and simpler methdo of gathering the data. 
+We were able to gather all the data in one place. When we started joining the tables together we ran into multiple data formating issues particuarly with the dates. After spending some time correcting the problems with the dates and data formats, we were able to join the tables together. Ultimatly we decided to look for a faster and simpler method of gathering the data. 
 
 See *data_cleaning* file in the repo.
 
