@@ -176,7 +176,7 @@ Results:
 CAPM:
 Using the CAPM model, our expected rate of return on ESGU is 11.7%.
 
-![](Images/ESGU.png936)
+![](Images/ESGU.png)
 
 Fama French:
 Using the Fama French 3 Factor model, our expected rate of return on ESGU is 11.43%.
