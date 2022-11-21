@@ -191,7 +191,14 @@ ___
 
 ## Outcomes
 
+
+### Conclusion
+The tool allowed us to gather three different expected returns and gave us insight into stocks with high and low correlations to the market. With low-correlation stocks like Tesla, we will need to take additional steps to validate or correct our perspective on the expected return. 
+
+
+
 ### Lessons Learned
+
 
 **One source of data is significantly better than multiple sources**<br>
 Different sources use different DateTime formats and data types, creating problems when joining data. This added complexity to the process until we found a single source.
